@@ -12,8 +12,12 @@ const Form = () => {
             <div id="gradient">
                 <div className="header-flex-container bg-dark">
                     <div className="header-navbar ">
-                        <nav className="navbar navbar-expand-lg navbar-light ">
-                            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <nav className="navbar navbar-expand-lg navbar-light p-3 ">
+                        <span class="navbar-brand text-white">
+                                HEALTHYLife
+                        </span>
+
+                            <div className="collapse navbar-collapse" id="navbarSupportedContent"> 
                                 <ul className="navbar-nav mr-auto">
                                     <li className="nav-item active">
                                         <Link className="nav-link text-white" to="/">BMI</Link>
